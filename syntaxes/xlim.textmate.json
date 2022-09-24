@@ -1,0 +1,24 @@
+{
+    "scopeName": "source.xlim",
+    "fileTypes": [
+        "xlim"
+    ],
+    "patterns": [
+        {
+            "name": "comment.line.double-dash",
+            "match": "--.*$"
+        },
+        {
+            "name": "entity.name.function",
+            "match": "\\b(sum|min|max)\\b"
+        },
+        {
+            "name": "keyword.control",
+            "match": "\\b(if|then|else)\\b"
+        },
+        {
+            "name": "entity.name.type.unit",
+            "match": "\\{.*?\\}"
+        }
+    ]
+}

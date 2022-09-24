@@ -1,0 +1,25 @@
+{
+  "name": "xlim",
+  "displayName": "xlim",
+  "description": "xlim syntax highlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "xlim",
+      "aliases": ["xlim", "xlim"],
+      "extensions": [".xlim"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "xlim",
+      "scopeName": "source.xlim",
+      "path": "./syntaxes/xlim.textmate.json"
+    }]
+  }
+}
